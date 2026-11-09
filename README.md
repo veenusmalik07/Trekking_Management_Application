@@ -2,11 +2,17 @@
 
 A full-stack web application designed to simplify and manage trekking activities, bookings, trek organizers, and staff assignments through a centralized platform.
 
-## 🎥 Application Demo
+<img width="1782" height="836" alt="image" src="https://github.com/user-attachments/assets/a85ab76c-6ea3-4990-8087-02f2a42b6df9" />
+<img width="1795" height="881" alt="image" src="https://github.com/user-attachments/assets/9428a0f4-515d-4ed4-96bf-293c1574ace0" />
+<img width="1777" height="877" alt="image" src="https://github.com/user-attachments/assets/7eafb143-3e6e-4d19-8882-68a8c95cacc7" />
+<img width="1792" height="886" alt="image" src="https://github.com/user-attachments/assets/ec9f51a3-5731-4426-b43c-2866cce0a9bc" />
+<img width="1786" height="892" alt="image" src="https://github.com/user-attachments/assets/b20c9d2a-42da-4889-839a-352132540ec1" />
+<img width="1775" height="892" alt="image" src="https://github.com/user-attachments/assets/752b30b3-d3dd-4462-9221-d802d5891e24" />
+<img width="1777" height="892" alt="image" src="https://github.com/user-attachments/assets/29a11634-db48-43f5-a316-ecc4cdf755fe" />
+<img width="1790" height="895" alt="image" src="https://github.com/user-attachments/assets/55c42a23-1d20-44c6-ab4d-ffc88e6a955a" />
+<img width="1786" height="886" alt="image" src="https://github.com/user-attachments/assets/d6039894-ed90-482f-835b-deb432195e5a" />
+<img width="1790" height="887" alt="image" src="https://github.com/user-attachments/assets/871f8409-1fc2-4d03-8934-d14766f3d5a7" />
 
-Get a complete walkthrough of the Trekking Management Application, exploring its interface, features, and functionality.
-
-▶️ Watch the Full Application Demo
 
 ## 📌 About the Project
 
