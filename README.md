@@ -2,6 +2,12 @@
 
 A full-stack web application designed to simplify and manage trekking activities, bookings, trek organizers, and staff assignments through a centralized platform.
 
+## 🎥 Application Demo
+
+Get a complete walkthrough of the Trekking Management Application, exploring its interface, features, and functionality.
+
+▶️ Watch the Full Application Demo
+
 ## 📌 About the Project
 
 The **Trekking Management Application (TMA)** is a web-based platform that helps users discover and book trekking experiences while allowing administrators and trek staff to manage trekking operations efficiently.
