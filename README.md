@@ -22,6 +22,14 @@ The application provides role-based access for three types of users: Admin, Trek
 
 It aims to make trek planning, booking management, and coordination between users and trekking organizers easier and more organized.
 
+## 🎥 Application Demo
+
+Click the preview below to watch the complete application walkthrough.
+
+[![Trekking Management Application Demo](frontend_demo.png)](https://github.com/veenusmalik07/Trekking_Management_Application/blob/main/Application_Demo.mp4)
+
+▶️ **Watch the complete application walkthrough**
+
 ## ✨ Key Features
 
 ### 👤 User Module
