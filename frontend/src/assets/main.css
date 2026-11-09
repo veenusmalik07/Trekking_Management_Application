@@ -1,0 +1,27 @@
+html,
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+
+    font-family:"BrotherSignature";
+
+    src:url("@/assets/fonts/Brother_Signature.otf") format("opentype");
+
+    font-weight:normal;
+
+    font-style:normal;
+
+}

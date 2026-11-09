@@ -1,0 +1,129 @@
+openapi: 3.0.0
+
+info:
+  title: TrekMate API
+  version: 1.0.0
+  description: REST API documentation for the TrekMate Trekking Management System.
+
+servers:
+  - url: http://localhost:5000
+
+paths:
+
+  /api/login:
+    post:
+      summary: User Login
+      description: Authenticate user and return JWT token.
+
+  /api/register:
+    post:
+      summary: Register User
+      description: Create a new user account.
+
+  /api/admin/dashboard:
+    get:
+      summary: Admin Dashboard
+      description: Retrieve dashboard statistics and charts.
+
+  /api/admin/treks:
+    get:
+      summary: Get All Treks
+      description: Fetch all trekking expeditions.
+
+  /api/admin/create-trek:
+    post:
+      summary: Create Trek
+      description: Create a new trekking expedition.
+
+  /api/admin/treks/{trek_id}:
+    get:
+      summary: View Trek
+      description: Retrieve complete details of a trek.
+
+    put:
+      summary: Update Trek
+      description: Update trek information.
+
+  /api/admin/delete-trek/{trek_id}:
+    delete:
+      summary: Delete Trek
+      description: Delete a trek if no bookings exist.
+
+  /api/admin/bookings:
+    get:
+      summary: Get All Bookings
+      description: Retrieve all trek bookings.
+
+  /api/admin/approve-booking/{booking_id}:
+    put:
+      summary: Approve Booking
+      description: Approve a user's trek booking.
+
+  /api/admin/reject-booking/{booking_id}:
+    put:
+      summary: Reject Booking
+      description: Reject a user's trek booking.
+
+  /api/admin/create-staff:
+    post:
+      summary: Create Staff
+      description: Register a new staff member.
+
+  /api/admin/assign-staff:
+    post:
+      summary: Assign Staff
+      description: Assign a staff member to a trek.
+
+  /api/user/dashboard:
+    get:
+      summary: User Dashboard
+      description: Retrieve user dashboard data.
+
+  /api/user/profile:
+    get:
+      summary: User Profile
+      description: Retrieve user profile.
+
+    put:
+      summary: Update Profile
+      description: Update user profile information.
+
+  /api/user/browse-treks:
+    get:
+      summary: Browse Treks
+      description: Retrieve available upcoming treks.
+
+  /api/user/view-trek/{trek_id}:
+    get:
+      summary: Trek Details
+      description: Retrieve complete details of a selected trek.
+
+  /api/user/book-trek:
+    post:
+      summary: Book Trek
+      description: Book seats for a trekking expedition.
+
+  /api/user/my-bookings:
+    get:
+      summary: My Bookings
+      description: Retrieve booking history of the logged-in user.
+
+  /api/staff/treks/{staff_id}:
+    get:
+      summary: Staff Treks
+      description: Retrieve all treks assigned to a staff member.
+
+  /api/staff/participants:
+    get:
+      summary: Trek Participants
+      description: Retrieve participant details for assigned treks.
+
+  /api/staff/summary:
+    get:
+      summary: Staff Dashboard
+      description: Retrieve staff dashboard statistics.
+
+  /api/staff/complete-trek/{assignment_id}:
+    put:
+      summary: Complete Trek
+      description: Mark an assigned trek as completed.

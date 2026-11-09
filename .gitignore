@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+**/node_modules/
+frontend/dist/
+
+# Local runtime data
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+backend/static/profile_uploads/*
+!backend/static/profile_uploads/default_profile.png
+backend/celerybeat-schedule*
+backend/logs/
